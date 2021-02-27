@@ -1,0 +1,57 @@
+
+body{   
+	margin:1px;
+	padding:5px;
+	background:url(../image/reg.jpg);
+	background-size:cover;
+	font-family:sans-serif;
+	box-sizing: border-box;
+
+}
+b{
+	color:black;
+	padding:1px;
+	margin:5px;
+	font-size:18px;
+	font-family: 'Bitter', serif;
+
+}
+
+
+h2{
+	color:white;
+	padding:1px;
+	margin:5px;
+}
+
+
+hr {
+  border: 0px solid #f1f1f1;
+  margin-bottom: 25px;
+
+}
+button {
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius:100px;
+  width: 40;
+  opacity: 0.9;
+}
+button:hover{
+	opacity: 1;
+}
+ .cancelbtn {	  
+  padding: 14px 20px;
+  background-color: #f44336;
+  
+}
+.signupbtn {
+  padding: 14px 20px;
+  background-color: #fbff0c;
+}	
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
